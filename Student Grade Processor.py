@@ -29,8 +29,8 @@ def determine_letter_grade(numerical_grade, student_type, curve_score):
             return 'F'
 # Define the main function.
 def main():
-    input_file_path = '/Users/vinodkumar/Desktop/vinod.txt'
-    output_file_path = '/Users/vinodkumar/Desktop/vinod2.txt'
+    input_file_path = '/Users/steicysingh/Desktop/input.txt'
+    output_file_path = '/Users/steicysingh/Desktop/output.txt'
     # Ask the user if they want to curve the grades and set the 'curve' variable accordingly.
     curve_choice = input("Would you like to curve the grades? (Y/N) ").strip().lower()
     curve = curve_choice == 'y'
